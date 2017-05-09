@@ -1,6 +1,6 @@
-defmodule FullcontactExTest do
+defmodule FullcontactTest do
   use ExUnit.Case
-  doctest FullcontactEx
+  doctest Fullcontact
 
   test "the truth" do
     assert 1 + 1 == 2
