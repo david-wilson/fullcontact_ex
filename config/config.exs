@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :fullcontact_ex, key: :value
+#     config :FullContact_ex, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:fullcontact_ex, :key)
+#     Application.get_env(:FullContact_ex, :key)
 #
 # Or configure a 3rd-party app:
 #

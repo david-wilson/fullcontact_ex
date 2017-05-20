@@ -1,8 +1,8 @@
-defmodule Fullcontact.Mixfile do
+defmodule FullContact.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :fullcontact,
+    [app: :FullContact,
      version: "0.1.0",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
@@ -28,6 +28,7 @@ defmodule Fullcontact.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+     {:poison, "~> 3.0"}]
   end
 end

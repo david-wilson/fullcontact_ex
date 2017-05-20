@@ -1,6 +1,6 @@
-defmodule Fullcontact do
+defmodule FullContact do
   @moduledoc """
-  Documentation for Fullcontact.
+  Documentation for FullContact.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Fullcontact do
 
   ## Examples
 
-      iex> Fullcontact.hello
+      iex> FullContact.hello
       :world
 
   """
