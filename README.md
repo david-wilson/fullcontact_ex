@@ -9,7 +9,7 @@ by adding `FullContact_ex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:FullContact_ex, "~> 0.1.0"}]
+  [{:FullContact_ex, "~> 0.0.1"}]
 end
 ```
 

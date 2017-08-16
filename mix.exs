@@ -3,11 +3,13 @@ defmodule FullContact.Mixfile do
 
   def project do
     [app: :FullContact,
-     version: "0.1.0",
+     version: "0.0.1",
+     description: "A simple wrapper around the FullContact API",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps()]
+     deps: deps(),
+     package: package()]
   end
 
   # Configuration for the OTP application
@@ -31,5 +33,13 @@ defmodule FullContact.Mixfile do
     [
      {:poison, "~> 3.0"},
      {:httpoison, "~> 0.11.1"}]
+  end
+
+  def package do
+    [name: :fullcontact,
+     files: ["lib", "mix.exs"],
+     maintainers: ["David Wilson"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/david-wilson/fullcontact_ex"}]
   end
 end
